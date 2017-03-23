@@ -28,6 +28,9 @@ public class TestControcller {
 	@ResponseBody
 	private String testMethod(){
 		List<TestMavenBean> TestMavenBeans = tsi.testService();
+
+
+
 		return TestMavenBeans.toString();
 	}
 }
